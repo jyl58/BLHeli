@@ -1,18 +1,16 @@
-This tree contains the BLHeli assembly code for sensorless brushless motor electronic speed control (ESC) boards.
-It was initially designed for use with Eflite mCP X, but is well suited for other copters/planes.
+This tree contains BLHeli code for sensorless brushless motor electronic speed control (ESC) boards.  
+  
+To view and use the files, click the "Clone or download" button on this page,  
+and then select "Download ZIP" to download the repository to your computer.  
+  
+For flashing and configuration, download the BLHeliSuite PC software:  
+https://www.mediafire.com/folder/dx6kfaasyo24l/BLHeliSuite  
+  
+For more information, check out these threads:  
+https://www.rcgroups.com/forums/showthread.php?2640796 (for BLHeli_S)  
+http://www.rcgroups.com/forums/showthread.php?t=2136895 (for BLHeli)  
+  
+And look in the "BLHeli_32 ARM" folder for info on BLHeli_32.
 
-There is one version of the software for Silabs MCU based ESCs, and another for Atmel MCU based ESCs.
-Both versions are now at the same revision.
-
-To view and use the files, click the "Download ZIP" button on this page and download the repository to your computer.
-
-For flashing and configuration, download the BLHeliSuite PC software:
-https://www.mediafire.com/folder/dx6kfaasyo24l/BLHeliSuite
-
-For more information, check out these threads:
-
-http://www.helifreak.com/showthread.php?t=390517 (for SiLabs MCU based ESCs)
-http://www.rcgroups.com/forums/showthread.php?t=2136895
-
-April 2012,
+October 2018,
 Steffen Skaug

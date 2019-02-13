@@ -1,18 +1,30 @@
-Posted here in the "Rev32.41 hex files" directory, is BLHeli_32 test code Rev32.41 (interpret as Rev32.4.1)
+# BLHeli_32 info page  
 
-The code has the following new fuctionality
-- Added a sine modulation mode option
-  This mode is a hybrid between sine operation and trapezoidal block commutation.
-  It can make motors run slightly smoother and slightly more effective.
-- Added autonomous telemetry option
-  When selected, telemetry frames will be sent every 32ms, regardless of requests from the input signal.
-- Added bidirectional soft mode option
-  In this mode, bidirectional operation works just like regular operation.
-  The "old" bidirectional mode (intended for copter 3D operation) is now called bidirectional 3D.
+## BLHeli_32 downloads  
 
-Some fixes:
-- Frequent CRC errors on telemetry frames shall now be fixed.
-- The occasional undesired rotations when stopping in bidirectional mode is fixed.
+You can find BLHeliSuite32 here:   
+https://drive.google.com/drive/folders/1Y1bUMnRRolmMD_lezL0FYd3aMBrNzCig   
+or here:   
+https://www.mediafire.com/folder/dx6kfaasyo24l/BLHeliSuite   
+And the Android APP on Google Play:   
+https://play.google.com/store/apps/details?id=org.blheli.BLHeli_32  
+For users in regions where Google is not available, you can download the ".apk" file in the  
+"BLHeli_32 Android APP" folder to your phone or tablet and open it. This will install the APP.  
 
-You can find BLHeliSuite32 as usual here:
-https://www.mediafire.com/folder/dx6kfaasyo24l/BLHeliSuite
+## BLHeli_32 manual
+
+You can find the manual in the link above: BLHeli_32 manual ARM Rev32.x.pdf
+
+## Test code
+
+BLHeli_32 Rev32.6.4 test code is published in the "BLHeli_32 Test code Rev32.6.4 hex files" directory
+- Added real time signal line telemetry (for Dshot and Proshot input)  
+- Added telemetry trig for PWM input (pulse <30us for 1-2ms PWM, Oneshot125 and Oneshot42)  
+- Added capability of Dshot2400 and improved accuracy of Proshot  
+- Some smaller fixes  
+
+## Discussion threads
+
+For more information, check out these threads:  
+https://www.rcgroups.com/forums/showthread.php?2864611 (for BLHeli_32)  
+https://www.rcgroups.com/forums/showthread.php?3143134 (for the BLHeli_32 Android APP)  
